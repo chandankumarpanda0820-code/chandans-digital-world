@@ -3999,3 +3999,26 @@ a {
     letter-spacing: 1px;
   }
 }
+
+.portfolio-top-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.top-bar-divider {
+  color: rgba(214, 181, 109, 0.4);
+  font-size: 13px;
+}
+
+@media (max-width: 576px) {
+  .portfolio-top-links {
+    gap: 9px;
+  }
+
+  .top-bar-divider {
+    font-size: 10px;
+  }
+}
